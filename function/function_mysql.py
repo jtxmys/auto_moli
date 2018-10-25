@@ -23,6 +23,7 @@ def ordernumber(self):
     return userinfo
 
 
-if __name__ == __main__:
+if __name__ == '__main__':
+
     select = MySQL()
     select.ordernumber()
